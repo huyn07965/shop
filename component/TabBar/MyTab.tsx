@@ -2,7 +2,6 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Tabs } from "expo-router";
 import TabBar from "./TabBar";
-import { Color } from "@/constants";
 import Header from "../Header";
 
 const Tab = createBottomTabNavigator();
@@ -55,9 +54,9 @@ const MyTab = () => {
         // }}
       />
       <Tabs.Screen
-        name="create"
+        name="favorite"
         options={{
-          title: "Create",
+          title: "Favorite",
         }}
       />
       <Tabs.Screen
